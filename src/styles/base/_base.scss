@@ -23,43 +23,43 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: $h1-fz;
 	line-height: $h1-lh;
-	margin-bottom: 6px;
-	padding-top: 6px;
+	margin-bottom: $baseline - 6 + px;
+	padding-top: $baseline - 6 + px;
 }
 
 h2 {
 	font-size: $h2-fz;
 	line-height: $h2-lh;
-	margin-bottom: 2px;
-	padding-top: 10px;
+	margin-bottom: $baseline - 10 + px;
+	padding-top: $baseline - 2 + px;
 }
 
 h3 {
 	font-size: $h3-fz;
 	line-height: $h3-lh;
-	margin-bottom: 7px;
-	padding-top: 5px;
+	margin-bottom: $baseline - 5 + px;
+	padding-top: $baseline - 7 + px;
 }
 
 h4 {
 	font-size: $h4-fz;
 	line-height: $h4-lh;
-	margin-bottom: 5px;
-	padding-top: 7px;
+	margin-bottom: $baseline - 7 + px;
+	padding-top: $baseline - 5 + px;
 }
 
 h5 {
 	font-size: $h5-fz;
 	line-height: $h5-lh;
-	margin-bottom: 10px;
-	padding-top: 2px;
+	margin-bottom: $baseline - 2 + px;
+	padding-top: $baseline - 10 + px;
 }
 
 h6 {
 	font-size: $h6-fz;
 	line-height: $h6-lh;
-	margin-bottom: 10px;
-	padding-top: 2px;
+	margin-bottom: $baseline - 2 + px;
+	padding-top: $baseline - 10 + px;
 }
 
 p,
