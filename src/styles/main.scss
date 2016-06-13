@@ -1,0 +1,32 @@
+// 1. utils
+@import
+	'utils/functions',
+	'utils/vars',
+	'utils/mixins',
+	'utils/helpers';
+
+// 2. vendors
+@import
+	'vendors/reset-and-normalize';
+
+// 3. base
+@import
+	'base/base',
+	'base/fonts';
+
+// 4. layout
+@import
+	'layout/footer';
+
+// 5. components
+@import
+	'components/icons',
+	'components/buttons';
+
+// 6. pages
+@import
+	'pages/main';
+
+// 7. themes
+@import
+	'themes/default';

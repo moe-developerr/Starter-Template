@@ -1,0 +1,74 @@
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $body-ff;
+	font-size: $body-fz;
+	line-height: $body-lh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $heading-ff;
+}
+
+h1 {
+	font-size: $h1-fz;
+	line-height: $h1-lh;
+	margin-bottom: 6px;
+	padding-top: 6px;
+}
+
+h2 {
+	font-size: $h2-fz;
+	line-height: $h2-lh;
+	margin-bottom: 2px;
+	padding-top: 10px;
+}
+
+h3 {
+	font-size: $h3-fz;
+	line-height: $h3-lh;
+	margin-bottom: 7px;
+	padding-top: 5px;
+}
+
+h4 {
+	font-size: $h4-fz;
+	line-height: $h4-lh;
+	margin-bottom: 5px;
+	padding-top: 7px;
+}
+
+h5 {
+	font-size: $h5-fz;
+	line-height: $h5-lh;
+	margin-bottom: 10px;
+	padding-top: 2px;
+}
+
+h6 {
+	font-size: $h6-fz;
+	line-height: $h6-lh;
+	margin-bottom: 10px;
+	padding-top: 2px;
+}
+
+p,
+a,
+span {
+	margin-bottom: 7px;
+	padding-top: 5px;
+}
+
+a {
+	text-decoration: none;
+}
