@@ -65,8 +65,8 @@ h6 {
 p,
 a,
 span {
-	margin-bottom: 7px;
-	padding-top: 5px;
+	margin-bottom: $baseline - 5 + px;
+	padding-top: $baseline - 7 + px;
 }
 
 a {
