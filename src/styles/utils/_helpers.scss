@@ -1,0 +1,27 @@
+.container {
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	@include respond-to('s') {
+		max-width: 750px;
+	}
+	@include respond-to('m') {
+		max-width: 970px;
+	}
+	@include respond-to('l') {
+		max-width: 1170px;
+	}
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.responsive {
+	max-width: 100%;
+	height: auto;
+}

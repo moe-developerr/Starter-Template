@@ -7,7 +7,10 @@
 
 // 2. vendors
 @import
-	'vendors/reset-and-normalize';
+	'vendors/reset-and-normalize'm
+	'vendors/icons',
+	'vendors/royalslider',
+	'vendors/rs-default';
 
 // 3. base
 @import
@@ -20,7 +23,7 @@
 
 // 5. components
 @import
-	'components/icons',
+	'components/slider',
 	'components/buttons';
 
 // 6. pages

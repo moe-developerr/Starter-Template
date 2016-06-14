@@ -62,13 +62,27 @@ h6 {
 	padding-top: $baseline - 10 + px;
 }
 
-p,
-a,
-span {
+p {
 	margin-bottom: $baseline - 5 + px;
 	padding-top: $baseline - 7 + px;
 }
 
+input,
+button,
+textarea {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	&:focus {
+		outline: none;
+	}
+}
+
 a {
 	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
 }
