@@ -14,6 +14,7 @@ body {
 	font-family: $body-ff;
 	font-size: $body-fz;
 	line-height: $body-lh;
+	overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,8 +64,8 @@ h6 {
 }
 
 p {
-	margin-bottom: $baseline - 5 + px;
-	padding-top: $baseline - 7 + px;
+	margin-bottom: $baseline - 4 + px;
+	padding-top: $baseline - 8 + px;
 }
 
 input,
@@ -85,4 +86,10 @@ a {
 
 img {
 	vertical-align: middle;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid;
+	margin: 0;
 }
