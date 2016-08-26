@@ -12,6 +12,9 @@
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, possimus.</p>
 	<a href="#">Anchor Anchor Anchor Anchor Anchor</a>
 	<span>Span Span Span Span</span>
+	<input type="text">
+	<textarea name="" id="" cols="30" rows="10"></textarea>
+	<select name="" id=""></select>
 	<?php include 'includes/js.php'; ?>
 	<script src="dist/scripts/main.min.js"></script>
 </body>

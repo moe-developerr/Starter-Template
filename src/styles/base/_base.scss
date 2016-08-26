@@ -70,14 +70,9 @@ p {
 
 input,
 button,
-textarea {
-	background: none;
-	border: none;
-	padding: 0;
-	margin: 0;
-	&:focus {
-		outline: none;
-	}
+textarea,
+select {
+	vertical-align: bottom;
 }
 
 a {
