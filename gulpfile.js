@@ -24,10 +24,7 @@ var PATH = {
 	inputMarkup: './**/*.php',
 	inputStyles: './src/styles/**/*.scss',
 	inputVendors: ['./src/scripts/vendors/*.js', './src/scripts/vendors/*.min.js'],
-	inputModules: [
-		'./src/scripts/modules/module1.js',
-		'./src/scripts/modules/module2.js'
-	],
+	inputModules: ['./src/scripts/modules/*.js', './src/scripts/modules/*.min.js'],
 	outputStyles: './dist/styles',
 	outputVendors: './dist/scripts/vendors',
 	outputModules: './dist/scripts'
