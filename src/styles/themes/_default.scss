@@ -1,0 +1,16 @@
+.plc {
+	@include m('c') {
+		color: $p-l-c;
+	}
+	@include m('bg') {
+		background-color: $p-l-c;
+	}
+}
+.pdc {
+	@include m('c') {
+		color: $p-d-c;
+	}
+	@include m('bg') {
+		background-color: $p-d-c;
+	}
+}
