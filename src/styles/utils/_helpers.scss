@@ -140,3 +140,15 @@
 		@extend .pb--3;
 	}
 }
+
+.text {
+	@include m('center') {
+		text-align: center;
+	}
+	@include m('left') {
+		text-align: left;
+	}
+	@include m('right') {
+		text-align: right;
+	}
+}
